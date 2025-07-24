@@ -1,4 +1,8 @@
+/*font import merriweather*/
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wdth,wght@0,18..144,87.5,300..900;1,18..144,87.5,300..900&display=swap');
+
 /*font variations 300 to 900*/
+
 .merriweather-font-value {
   font-family: "Merriweather", serif;
   font-optical-sizing: auto;
@@ -10,5 +14,5 @@
 
 /*header*/
 header {
-    background: color #007a78;
+    background-color:#007a78;
 }
