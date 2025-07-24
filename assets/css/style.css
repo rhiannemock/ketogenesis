@@ -22,12 +22,14 @@ body{
 header {
     background-color:#007a78;
     display:flex;
-    width:100%
+    width:100%;
+    z-index:99;
+    
 }
+/*footer*/
 footer{
   min-height:100vw;
   display:flex;
   flex-direction:row;
   color:#003b49;
-
 }
