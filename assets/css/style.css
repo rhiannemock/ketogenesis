@@ -37,8 +37,7 @@ h1{
   font-family: 'Merriweather', serif;
   padding-left:6vw;
   padding-top:4px;
-  font-size:8vw;
-  letter-spacing:4px;
+  font-size:6vw;
   text-shadow: 2px 2px 2px #003b49;  
 }
 
@@ -48,23 +47,36 @@ h1 a{
 }
 
 /*nav*/
-nav{
+#menu{
   display:flex;
   align-self:flex-end;
   justify-content:space-between;
   padding-bottom: 1em;
+  display:none;
 }
-nav a{
+#menu > a{
   text-decoration:none;
   color:#ffffff;
   font-family:'Merriweather', serif;
   font-size:120%;
   background-color: #007a78;
   padding-left:2rem;
-  text-shadow:1px 1px 1px #003b49
+  text-shadow:1px 1px 1px #003b49  
+}
+.border-bottom{
   
 }
 
+/*nav toggle for mobile*/
+#nav-toggle:checked~nav{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  font-size:0.8rem;
+}
+#nav-toggle{
+  display:none;
+}
 
   
 
