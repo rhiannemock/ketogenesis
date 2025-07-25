@@ -25,7 +25,20 @@ header {
     width:100%;
     z-index:99;
     
+.logo{
+  width:10vw;
+  height:10vw
 }
+
+h1{
+  font-family: 'Merriweather', serif;
+  font-size:3vw;
+  color:#fff;
+  margin-left:2vw;
+  margin-top:1vw;
+  margin-bottom:1vw;
+}
+
 /*footer*/
 footer{
   min-height:100vw;
