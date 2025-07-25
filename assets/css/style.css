@@ -24,19 +24,26 @@ header {
     display:flex;
     width:100%;
     z-index:99;
-    
+}
+
 .logo{
-  width:10vw;
-  height:10vw
+ width:20vw;
+ padding-top:4px;
+ padding-left:4px;  
 }
 
 h1{
   font-family: 'Merriweather', serif;
-  font-size:3vw;
-  color:#fff;
-  margin-left:2vw;
-  margin-top:1vw;
-  margin-bottom:1vw;
+  padding-left:10vw;
+  padding-top:6px;
+  font-size:8vw;
+  letter-spacing:4px;
+  text-shadow: 2px 2px 2px #003b49;  
+}
+
+h1 a{
+  text-decoration:none;
+  color:#ffffff;
 }
 
 /*footer*/
@@ -44,5 +51,5 @@ footer{
   min-height:100vw;
   display:flex;
   flex-direction:row;
-  color:#003b49;
+  background-color:#003b49;
 }
