@@ -37,7 +37,7 @@ h1{
   font-family: 'Merriweather', serif;
   padding-left:6vw;
   padding-top:4px;
-  font-size:6vw;
+  font-size:8vw;
   text-shadow: 2px 2px 2px #003b49;  
 }
 
@@ -60,7 +60,7 @@ h1 a{
   font-family:'Merriweather', serif;
   font-size:120%;
   background-color: #007a78;
-  padding-left:2rem;
+  padding-left:1rem;
   text-shadow:1px 1px 1px #003b49  
 }
 .border-bottom{
@@ -78,6 +78,13 @@ h1 a{
   display:none;
 }
 
+#menu-burger{
+  width:1.5rem;
+  height:1.5rem;
+  display:flex;
+  align-self:flex-end;
+
+
   
 
 
@@ -86,6 +93,7 @@ footer{
   position:fixed;
   bottom:0%;
   max-height:30%;
+
   width:100%;
   display:flex;
   background-color:#003b49;
