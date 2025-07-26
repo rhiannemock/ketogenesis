@@ -21,29 +21,16 @@ body{
 /*header*/
 header {
   padding:0;;
-  background-color:#007a78;
+  background-color:#2e323f;
   width:100%;
   box-shadow:0 2px 2px #003b49
 }
 
 .logo{
- width:20vw;
+ width:100%;
  padding-top:4px;
  padding-left:0;
  box-shadow:2px 2px 2px #003b49;  
-}
-
-h1{
-  font-family: 'Merriweather', serif;
-  font-size:8vw;
-  text-shadow: 2px 2px 2px #003b49; 
-  display:absolute;
-  align-self:center;
-}
-
-h1 a{
-  text-decoration:none;
-  color:#ffffff;
 }
 
 /*nav*/
@@ -59,7 +46,7 @@ h1 a{
   color:#ffffff;
   font-family:'Merriweather', serif;
   font-size:100%;
-  background-color: #007a78;
+  background-color: #2e323f;
   padding-left:1rem;
   text-shadow:1px 1px 1px #003b49;  
 }
