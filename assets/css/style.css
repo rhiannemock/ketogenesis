@@ -65,11 +65,13 @@ h1 a{
   font-size:120%;
   background-color: #007a78;
   padding-left:1rem;
-  text-shadow:1px 1px 1px #003b49  
+  text-shadow:1px 1px 1px #003b49;  
 }
-.border-bottom{
-  
+#menu > a:hover{
+  color:#003b49;
+  background-color:#ffffff;
 }
+
 
 /*nav toggle for mobile*/
 #nav-toggle:checked~nav{
@@ -87,18 +89,28 @@ h1 a{
   height:1.5rem;
   display:flex;
   align-self:flex-end;
+}
 
-
-  
-
-
-/*footer*/
-footer{
-  position:fixed;
-  bottom:0%;
-  max-height:30%;
-
-  width:100%;
+@media screen and (min-width: 768px) {
+/* #menu{
   display:flex;
-  background-color:#003b49;
+  align-self:flex-end;
+  justify-content:space-between;
+  padding-bottom: 1em;
+  display:none;*/
+
+#menu > a{
+  display:block;
+  position:relative;
+  text-decoration:none;
+}
+#menu > a:hover{
+  color:#003b49;
+  background-color:#ffffff;
+}
+.nav-toggle-label{
+  display:none;
+}
+#menu{
+  display:flex;}
 }
