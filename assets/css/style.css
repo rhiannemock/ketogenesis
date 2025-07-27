@@ -28,7 +28,6 @@ header {
 
 .logo{
  display:flex;
- flex-grow:3;
  width:100%;
  height:auto; 
  padding-top:0;
