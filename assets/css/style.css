@@ -23,7 +23,7 @@ header {
   background-color:#2e323f;
   width:100%;
   box-shadow:0 2px 2px #000405;
-  max-width:fit-content;
+  max-width:150%;
 }
 
 .logo{
@@ -112,8 +112,8 @@ footer{
 @media screen and (min-width: 1024px) {
 
 #menu > a{
-  display:block;
   position:relative;
+
   text-decoration:none;
   font-size:130%;
 }
