@@ -20,19 +20,35 @@ body{
 
 /*header*/
 header {
-  background-color:#2e323f;
+  background-color:#232429;
   width:100%;
   box-shadow:0 2px 2px #000405;
   max-width:150%;
 }
-
-.logo{
- display:flex;
- width:100%;
- height:auto; 
- padding-top:0;
- padding-left:0;
+/*menu logo header and h1*/
+#menu-box{
+  display:flex;
+  max-width:100%;
+  max-height:auto; 
+  padding-top:0;
+  padding-left:0;
 }
+#menu-box > .logo{
+  min-width:100%;
+  max-height:auto;
+}
+#menu-box > h1{
+  position:absolute;
+  top:15%;
+  left:33%;
+  color:#ffffff;
+  text-decoration: underline overline #de721f;
+  font-size:1.5rem;
+  font-weight:300;
+  letter-spacing:0.5rem;
+}
+
+
 
 /*nav*/
 #menu{
@@ -48,7 +64,7 @@ header {
   color:#de721f;
   font-family:'Merriweather', serif;
   font-size:100%;
-  background-color: #2e323f;
+  background-color: #232429;
   padding-left:2em;
   padding-right:2em;
   margin-top:0.5em;
@@ -78,8 +94,8 @@ header {
 body{
   font-family: 'Merriweather', serif;
   font-size:1.2rem;
-  background-color:#d6d2c4;
-  color:#003b49;
+  background-color:#c0581c;
+  color:#232429;
   margin:0;
   padding:0;
   min-height:100vh;
@@ -126,4 +142,14 @@ footer{
 #menu{
   display:flex;
 }
+#menu-box > h1{
+  position:absolute;
+  top:35%;
+  left:35%;
+  color:#ffffff;
+  text-decoration: underline overline #de721f;
+  font-size:3.5rem;
+  font-weight:300;
+  letter-spacing:1.5rem;
 }
+  }
