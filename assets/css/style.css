@@ -40,7 +40,7 @@ header {
 #menu-box > h1{
   position:absolute;
   top:8vh;
-  left:30vw;
+  left:35vw;
   color:#ffffff;
   text-decoration: underline overline #de721f;
   font-size:2.5vh;
@@ -195,13 +195,44 @@ footer{
 }
 #menu-box > h1{
   position:absolute;
-  top:35vh;
+  top:13vh;
   left:35vw;
   color:#ffffff;
   text-decoration: underline overline #de721f;
-  font-size:3.5rem;
+  font-size:3rem;
   font-weight:300;
-  letter-spacing:1.5rem;
+  letter-spacing:1rem;
 }
   }
 
+  
+/* media query for screen sizes over 1200px*/
+@media screen and (min-width: 1200px) {
+
+#menu > a{
+  position:relative;
+
+  text-decoration:none;
+  font-size:130%;
+}
+#menu > a:hover{
+  color:#2e323f;
+  background-color: #ffffff;
+}
+.nav-toggle-label{
+  display:none;
+}
+#menu{
+  display:flex;
+}
+#menu-box > h1{
+  position:absolute;
+  top:30vh;
+  left:35vw;
+  color:#ffffff;
+  text-decoration: underline overline #de721f;
+  font-size:5rem;
+  font-weight:300;
+  letter-spacing:1rem;
+}
+  }
