@@ -29,7 +29,7 @@ header {
 #menu-box{
   display:flex;
   max-width:100%;
-  max-height:auto; 
+  height:auto; 
   padding-top:0;
   padding-left:0;
 }
@@ -70,66 +70,6 @@ header {
   margin-top:0.5em;   
 }
 
-/*boxes for main content*/
-
-.box-1{
-  background-color:#232429;
-  color:#ffffff;
-  border: 1px solid #000405;
-  padding-top:1vh;
-  padding-left:1vw;
-  padding-right:1vw;
-  margin: 10px 5px 5px 5px;
-  box-shadow:0 2px 2px #000405;
-  display:flex;
-  flex-direction:column;
-  justify-content: space-between;
-  
-}
-
-.img-1{
-  width:100%;
-  height:auto;
-  margin:5px 5px 5px 5px;
-  box-shadow:0 1px 1px #000405;
-  background-color:#232429;
-}
-.keto-diet{
-  width:99%;
-  height:auto;
-}
-
-.box-2{
-background-color:#232429;
-  color:#ffffff;
-  border: 1px solid #000405;
-  padding-top:3vh;
-  padding-left:3vw;
-  padding-right:2vw;
-  width:50vw;
-  height:auto;
-}
-
-.box-3{
-background-color:#232429;
-  color:#ffffff;
-  border: 1px solid #000405;
-  padding-top:3vh;
-  padding-left:3vw;
-  padding-right:2vw;
-  width:100%;
-  height:auto
-}
-div .keto-macros{
-  width:100%;
-  height:auto;
-  padding: 1vh 1vw 1vw 1vh;
-  box-shadow:0 1px 1px #000405;
-  border: 1px solid #000405;
-  
-}
-  
-
 /*nav toggle for mobile*/
 #nav-toggle:checked~nav{
   display:flex;
@@ -151,19 +91,78 @@ div .keto-macros{
 /*body*/
 body{
   font-family: 'Merriweather', serif;
-  font-size:1.2rem;
+  font-size:1rem;
   background-color:#c0581c;
   color:#232429;
-  margin:0;
-  padding:0;
   min-height:100vh;
   display:flex;
   flex-direction:column;
 }
 
+/*boxes for main content*/
+
+.box-1{
+  background-color:#232429;
+  color:#ffffff;
+  border: 1px solid #000405;
+  padding-top:1vh;
+  padding-left:1vw;
+  padding-right:1vw;
+  margin: 5px 5px 5px 5px;
+  box-shadow:0 2px 2px #000405; 
+}
+
+.img-1{
+  max-width:100%;
+  height:auto;
+  display:block;
+  margin:5px 5px 5px 5px;
+  box-shadow:0 1px 1px #000405;
+  background-color:#232429;
+  
+}
+.keto-diet{
+  max-width:100%;
+  height:auto;
+}
+/*macro text box*/
+.box-2{
+background-color:#232429;
+  color:#ffffff;
+  border: 1px solid #000405;
+  margin: 5px 5px 5px 5px;
+  padding-top:3vh;
+  padding-left:3vw;
+  padding-right:2vw;
+  max-width:100%;
+  height:auto;
+}
+/*macro image box*/
+.box-3{
+  max-width:100%;
+  background-color:#232429;
+  color:#ffffff;
+  border: 1px solid #000405;
+  padding-top:1vh;
+  padding-left:1vw;
+  padding-right:1vw;
+  margin: 5px 5px 5px 5px;
+  box-shadow:0 2px 2px #000405;
+  
+}
+/*macros image*/
+div .keto-macros{
+  width:100%;
+  height:auto;
+  display:block;
+  margin:5px 5px 5px 5px;
+  box-shadow:0 1px 1px #000405;
+  background-color:#232429;
+  
+}
+/*section headings h2*/
 h2{
-  color:#c0581c;
-  text-shadow:1px 1px 1px #000405;
+  color:#de721f;
   font-size:2rem;
 }
 main{
