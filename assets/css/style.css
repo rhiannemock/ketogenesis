@@ -207,12 +207,14 @@ h2{
 
 #menu-box > h1{
   position:absolute;
-  top:12vh;
-  left:35vw;
+  top:50%;
+  left:33%;
+  bottom:20%;
+  right:20%;
   color:#ffffff;
   text-decoration: underline overline #de721f;
   font-size:4vh;
-  font-weight:300;
+  font-weight:600;
   letter-spacing:0.5rem;
 }
 }
