@@ -234,7 +234,6 @@ footer{
 
 #menu > a{
   position:relative;
-
   text-decoration:none;
   font-size:130%;
 }
@@ -250,12 +249,15 @@ footer{
 }
 #menu-box > h1{
   position:absolute;
-  top:30vh;
-  left:35vw;
+  top:50%;
+  left:35%;
+  bottom:30%;
+  right:30%;
   color:#ffffff;
-  text-decoration: underline overline #de721f;
+  text-decoration: underline overline #de721f 8px;
   font-size:5rem;
-  font-weight:300;
+  font-weight:800;
   letter-spacing:1rem;
+  
 }
   }
