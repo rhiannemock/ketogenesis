@@ -181,6 +181,27 @@ footer{
   height:30vh;
   
 }
+
+/*media query for screen size 540px*/
+@media screen and (min-width: 540px) {
+
+#menu-box > h1{
+  position:absolute;
+  top:54%;
+  left:34%;
+  right:20%;
+  bottom:20%;
+  color:#ffffff;
+  text-decoration: underline overline #de721f;
+  font-size:4vh;
+  font-weight:600;
+  letter-spacing:0.4rem;
+}
+h2{
+  font-size:1.5rem;
+  }
+
+}
 /* media query for screen sizes over 768px for h1 positioning*/
 @media screen and (min-width: 768px){
 
@@ -241,7 +262,7 @@ footer{
   color:#ffffff;
   text-decoration: underline overline #de721f;
   font-size:3rem;
-  font-weight:600;
+  font-weight:800;
   letter-spacing:1rem;
 }
   }
