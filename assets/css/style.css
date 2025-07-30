@@ -270,8 +270,8 @@ h2{
   }
 
   
-/* media query for screen sizes over 1200px*/
-@media screen and (min-width: 1200px) {
+/* media query for screen sizes over 1180px*/
+@media screen and (min-width: 1180px) {
 
 #menu > a{
   position:relative;
@@ -291,14 +291,32 @@ h2{
 #menu-box > h1{
   position:absolute;
   top:50%;
-  left:35%;
+  left:33%;
   bottom:30%;
   right:30%;
   color:#ffffff;
   text-decoration: underline overline #de721f 8px;
-  font-size:5rem;
+  font-size:4.5rem;
   font-weight:800;
-  letter-spacing:1rem;
+  letter-spacing:0.8rem;
   
 }
   }
+/*media query for 1350px*/
+@media screen and (min-width 1350px){
+  
+
+#menu-box > h1{
+  position:absolute;
+  top:50%;
+  left:33%;
+  bottom:30%;
+  right:30%;
+  color:#ffffff;
+  text-decoration: underline overline #de721f 8px;
+  font-size:4.5rem;
+  font-weight:800;
+  letter-spacing:0.8rem;
+  
+}
+}
