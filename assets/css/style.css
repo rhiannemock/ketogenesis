@@ -42,7 +42,7 @@ header {
 #menu-box > h1{
   position:absolute;
   top:50%;
-  left:35%;
+  left:33%;
   bottom:20%;
   right:20%;
   color:#ffffff;
@@ -90,7 +90,7 @@ header {
   height:2em;
   display:flex;
   align-self:flex-end;
-  box-shadow: #000405;
+  
 }
 /*body*/
 body{
@@ -192,6 +192,22 @@ footer{
   text-decoration: underline overline #de721f;
   font-size:4vh;
   font-weight:300;
+  letter-spacing:0.5rem;
+}
+}
+
+/*media query for screen sixes over 820px*/
+@media screen and (min-width: 820px) {
+  #menu-box > h1{
+  position:absolute;
+  top:55%;
+  left:33%;
+  bottom:20%;
+  right:20%;
+  color:#ffffff;
+  text-decoration: underline overline #de721f;
+  font-size:3rem;
+  font-weight:700;
   letter-spacing:0.5rem;
 }
 }
