@@ -24,6 +24,7 @@ header {
   width:100%;
   box-shadow:0 2px 2px #000405;
   max-width:150%;
+  position :relative;
 }
 /*menu logo header and h1*/
 #menu-box{
@@ -32,6 +33,7 @@ header {
   height:auto; 
   padding-top:0;
   padding-left:0;
+  position:relative;
 }
 #menu-box > .logo{
   min-width:100%;
@@ -39,8 +41,10 @@ header {
 }
 #menu-box > h1{
   position:absolute;
-  top:8vh;
-  left:35vw;
+  top:50%;
+  left:35%;
+  bottom:20%;
+  right:20%;
   color:#ffffff;
   text-decoration: underline overline #de721f;
   font-size:2.5vh;
@@ -104,11 +108,10 @@ body{
 .box-1{
   background-color:#232429;
   color:#ffffff;
-  border: 1px solid #000405;
   padding-top:1vh;
   padding-left:1vw;
   padding-right:1vw;
-  margin: 5px;
+  padding-bottom:1vh;
    
 }
 
@@ -127,10 +130,10 @@ body{
 .box-2{
 background-color:#232429;
   color:#ffffff;
-  border: 1px solid #000405;
   padding-top:3vh;
   padding-left:3vw;
   padding-right:2vw;
+  padding-bottom:1vh;
   max-width:100%;
   height:auto;
 }
@@ -140,11 +143,10 @@ background-color:#232429;
   max-width:100%;
   background-color:#232429;
   color:#ffffff;
-  border: 1px solid #000405;
   padding-top:1vh;
   padding-left:1vw;
   padding-right:1vw;
-  
+  padding-bottom:1vh;
   display:block;
   
   
@@ -154,7 +156,6 @@ div .keto-macros{
   width:100%;
   height:auto;
   display:block;
-  
   background-color:#232429;
   
 }
