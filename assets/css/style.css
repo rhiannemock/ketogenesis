@@ -184,20 +184,11 @@ footer{
   flex-direction:row;
   justify-content:space-evenly;
   flex-wrap:wrap;
-  
-
-}
-#copyright{
-  
 }
 
-#copyright p{
-}
 div .social-media{ 
   width:5vh;
   height:auto;
-  padding-right:2vw;
-  justify-content:baseline;
 }
 
 
@@ -288,62 +279,21 @@ h2{
   letter-spacing:1rem;
 }
 
-/*boxes for main content*/
-.wrapper{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  grid-auto-rows:1fr 1fr;
-}
-.box-1{
-  background-color:#232429;
-  color:#ffffff;
-  padding-top:1vh;
-  padding-left:1vw;
-  padding-right:1vw;
-  padding-bottom:1vh;
-  box-shadow:1px 1px 1px #000405;
+footer{
+  background-color: #de721f;
+  color:#2e323f;
+  width:100%;
+  height:30vh;
+  padding:2vh 2vw;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  flex-wrap:wrap;
 }
 
-.img-1{
-  background-color:#232429;
-  width:50vw;
+div .social-media{ 
+  width:15vh;
   height:auto;
-  
-}
-.keto-diet{
-  max-width:50vw;
-  height:auto;
-}
-/*macro text box*/
-.box-2{
-background-color:#232429;
-  color:#ffffff;
-  padding-top:3vh;
-  padding-left:3vw;
-  padding-right:2vw;
-  padding-bottom:1vh;
-  box-shadow:1px 1px #000405;
-}
-
-/*macro image box*/
-.box-3{
-  background-color:#232429;
-  color:#ffffff; 
-  width:50vw;
-  height:auto;
-}
-
-/*macros image*/
-div .keto-macros{
-  background-color:#232429;
-  width:50vw;
-  height:auto;
-}
-
-/*section headings h2*/
-h2{
-  color:#de721f;
-  font-size:2rem;
 }
   }
 
@@ -378,6 +328,66 @@ h2{
   font-weight:800;
   letter-spacing:0.8rem;
   
+}
+
+/*boxes for main content*/
+.wrapper{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-auto-rows:1fr 1fr;
+}
+
+/*intro*/
+.box-1{
+  background-color:#232429;
+  color:#ffffff;
+  padding-top:1vh;
+  padding-left:1vw;
+  padding-right:1vw;
+  padding-bottom:1vh;
+  box-shadow:1px 1px 1px #000405;
+}
+/*image box*/
+.img-1{
+  background-color:#232429;
+  width:50vw;
+  height:auto; 
+}
+/*keto image*/
+.keto-diet{
+  max-width:50vw;
+  height:auto;
+}
+/*macro text box*/
+.box-2{
+  background-color:#232429;
+  padding-top:1vh;
+  padding-left:1vw;
+  padding-right:1vw;
+  padding-bottom:1vh;
+  color:#ffffff;
+  box-shadow:1px 1px 1px#000405;
+}
+
+/*macro image box*/
+.box-3{
+  background-color:#232429;
+  color:#ffffff; 
+  width:50vw;
+  height:auto;
+}
+
+/*macros image*/
+div .keto-macros{
+  background-color:#232429;
+  width:50vw;
+  height:auto;
+}
+
+/*section headings h2*/
+h2{
+  color:#de721f;
+  font-size:2rem;
 }
   }
 /*media query for 1350px*/
