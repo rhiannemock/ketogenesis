@@ -37,6 +37,7 @@ header {
 }
 #menu-box > .logo{
   min-width:100%;
+  box-shadow:0 2px 2px #000405;
 
 }
 #menu-box > h1{
@@ -120,6 +121,7 @@ body{
   height:auto;
   display:block;
   background-color:#232429;
+  border:solid 2px #de721f;
   
 }
 .keto-diet{
@@ -157,6 +159,7 @@ div .keto-macros{
   height:auto;
   display:block;
   background-color:#232429;
+  border: solid 2px #de721f;
   
 }
 /*section headings h2*/
@@ -178,19 +181,33 @@ footer{
   background-color: #de721f;
   color:#2e323f;
   width:100%;
-  height:15vh;
+  height:20vh;
   padding:2vh 2vw;
-  display:flex;
-  flex-direction:row;
-  justify-content:space-evenly;
-  flex-wrap:wrap;
+  display:grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-template-rows:1fr;
+}
+.copyright{
+  padding:3px 3px 3px 3px;
+  font-size: small;
 }
 
 div .social-media{ 
   width:5vh;
   height:auto;
 }
-
+.printables a{
+  text-decoration:none;
+  font-size:xx-large;
+  font-weight:bold;
+  color:#ffffff;
+  padding-bottom:1vh;
+  padding-left:1vw;
+}
+.printables a:hover{
+  background-color:#ffffff;
+  color:#232429;
+}
 
 
 /*media query for screen size 540px*/
@@ -319,9 +336,9 @@ div .social-media{
 #menu-box > h1{
   position:absolute;
   top:50%;
-  left:33%;
-  bottom:30%;
-  right:30%;
+  left:37%;
+  /*bottom:30%;
+  right:30%;*/
   color:#ffffff;
   text-decoration: underline overline #de721f 8px;
   font-size:4.5rem;
@@ -345,7 +362,6 @@ div .social-media{
   padding-left:1vw;
   padding-right:1vw;
   padding-bottom:1vh;
-  box-shadow:0 0 2px #000405;
 }
 /*image box*/
 .img-1{
@@ -368,7 +384,7 @@ div .social-media{
   padding-right:1vw;
   padding-bottom:1vh;
   color:#ffffff;
-  box-shadow:0 0 2px#000405;
+  
 }
 
 /*macro image box*/
@@ -400,14 +416,17 @@ footer{
   height:30vh;
   padding:2vh 2vw;
   display:grid;
-  grid-template-columns: 6fr 1fr 1fr;
+  grid-template-columns: 4fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
 }
 
 div .social-media{ 
-  width:15vh;
+  width:20vh;
   height:auto;
+  padding-left:1vw;
 }
   }
+
 /*media query for 1350px*/
 @media screen and (min-width: 1350px){
   #menu-box > h1{
