@@ -183,14 +183,14 @@ form{
 
 /*footer*/
 footer{
-  background-color: #de721f;
-  color:#000106;
+  background-color: #0b0b0d;
   width:100%;
   height:20vh;
-  /*padding:2vh 2vw;*/
+  padding:2vh 2vw;
   display:grid;
   grid-template-columns: 3fr 1fr 1fr;
   grid-template-rows:3fr 1fr 1fr;
+  box-shadow:0 0 0 3px #000405;
 }
 .copyright{
   padding:3px 3px 3px 3px;
@@ -199,6 +199,7 @@ footer{
   color:#ffffff;
   text-align:center;
   width:30%;
+  border:solid 1px #ffffff
 }
 
 div .social-media{ 
@@ -212,6 +213,7 @@ div .social-media{
   color:#ffffff;
   padding-bottom:1vh;
   padding-left:1vw;
+  
 }
 .printables a:hover{
   background-color:#ffffff;
@@ -223,6 +225,7 @@ div .social-media{
   color:#ffffff;
   width:80%;
   text-align: center;
+  border:1px solid #ffffff;
 }
 
 /*media query for screen size 490px*/
