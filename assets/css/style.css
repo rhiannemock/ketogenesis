@@ -175,11 +175,15 @@ main{
   color:#de721f;
   
 }
+form{
+  color:#232429;
+  background-color:#de721f
+}
 
 /*footer*/
 footer{
   background-color: #de721f;
-  color:#2e323f;
+  color:#000106;
   width:100%;
   height:20vh;
   padding:2vh 2vw;
@@ -190,6 +194,10 @@ footer{
 .copyright{
   padding:3px 3px 3px 3px;
   font-size: small;
+  background-color:#232429;
+  color:#ffffff;
+  text-align:center;
+  width:30%;
 }
 
 div .social-media{ 
@@ -230,7 +238,7 @@ h2{
   }
 
 }
-/* media query for screen sizes over 768px for h1 positioning*/
+/* media query for screen sizes over 768px for */
 @media screen and (min-width: 768px){
 
 #menu-box > h1{
@@ -244,6 +252,23 @@ h2{
   font-size:4vh;
   font-weight:600;
   letter-spacing:0.5rem;
+}
+
+footer{
+  background-color: #de721f;
+  color:#2e323f;
+  width:100%;
+  height:35vh;
+  padding:2vh 2vw;
+  display:grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
+}
+
+div .social-media{ 
+  width:10vh;
+  height:auto;
+  padding-left:1vw;
 }
 }
 
