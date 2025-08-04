@@ -230,7 +230,46 @@ div .social-media{
   border:1px solid #ffffff;
   padding-left:-2vw;
 }
+/*media query for screen size 360px*/
+@media screen and (min-width: 360px) {
+#menu-box > h1{
+  position:absolute;
+  top:54%;
+  left:34%;
+  color:#ffffff;
+  text-decoration: underline overline #de721f;
+  font-size:2.2vh;
+  font-weight:600;
+  letter-spacing:0.3rem;
+}
+}
 
+/*media query for screen size 375px*/
+@media screen and (min-width: 375px) {
+#menu-box > h1{
+  position:absolute;
+  top:54%;
+  left:34%;
+  color:#ffffff;
+  text-decoration: underline overline #de721f;
+  font-size:2.8vh;
+  font-weight:600;
+  letter-spacing:0.3rem;
+}
+}
+/*media query for screen size 390px*/
+@media screen and (min-width: 390px) {
+#menu-box > h1{
+  position:absolute;
+  top:54%;
+  left:34%;
+  color:#ffffff;
+  text-decoration: underline overline #de721f;
+  font-size:2.4vh;
+  font-weight:600;
+  letter-spacing:0.3rem;
+}
+}
 /*media query for screen size 414px*/
 @media screen and (min-width: 414px) {
 #menu-box > h1{
@@ -243,7 +282,20 @@ div .social-media{
   font-weight:600;
   letter-spacing:0.3rem;
 }
+}
 
+/*media query for sreen size 430px*/
+@media screen and (min-width: 430px) {
+
+.printables a{
+  text-decoration:none;
+  font-weight:bold;
+  color:#ffffff;
+  padding-bottom:1vh;
+  padding-left:1vw;
+  font-size:1.5rem;
+}
+}
 /*media query for screen size 490px*/
 @media screen and (min-width: 490px) {
 
@@ -260,7 +312,6 @@ div .social-media{
 h2{
   font-size:1.5rem;
   }
-
 }
 
 /*media query for screen size 580px*/
@@ -278,8 +329,6 @@ h2{
 h2{
   font-size:1.5rem;
   }
-
-
 }
 
 /* media query for screen sizes over 768px for */
@@ -305,17 +354,30 @@ footer{
   height:35vh;
   padding:2vh 2vw;
   display:grid;
-  grid-template-columns: 4fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 2fr 1fr 1fr;
 }
-
+.printables a{
+  text-decoration:none;
+  font-weight:bold;
+  font-size:2.5rem;
+  color:#ffffff;
+  padding-bottom:1vh;
+  padding-left:1vw;
+}
 div .social-media{ 
   width:10vh;
   height:auto;
   padding-left:1vw;
 }
+.socials{
+  background-color:#232429;
+  color:#ffffff;
+  width:75%;
+  text-align: center;
+  border:1px solid #ffffff;
 }
-
+}
 /*media query for screen sizes over 820px*/
 @media screen and (min-width: 820px) {
   #menu-box > h1{
@@ -509,8 +571,7 @@ div .social-media{
   color:#ffffff;
   width:80%;
 }
-
-  }
+}
 
 /*media query for 1350px*/
 @media screen and (min-width: 1350px){
@@ -525,6 +586,5 @@ div .social-media{
   font-size:4.5rem;
   font-weight:800;
   letter-spacing:0.8rem;
-  
 }
 }
