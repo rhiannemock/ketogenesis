@@ -422,7 +422,7 @@ div .social-media{
   right:20%;
   color:#ffffff;
   text-decoration: underline overline #de721f;
-  font-size:3rem;
+  font-size:3.6rem;
   font-weight:800;
   letter-spacing:0.5rem;
 }
@@ -435,17 +435,16 @@ footer{
   background-color: #0b0b0d;
   color:#2e323f;
   width:100%;
-  height:20vh;
+  height:40vh;
   padding:2vh 2vw;
   display:grid;
-  grid-template-columns: 4fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 2fr 1fr 1fr;
 }
 
 div .social-media{ 
   width:10vh;
   height:auto;
-  padding-left:1vw;
 }
 .socials{
   background-color:#232429;
