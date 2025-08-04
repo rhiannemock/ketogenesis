@@ -42,14 +42,12 @@ header {
 }
 #menu-box > h1{
   position:absolute;
-  top:50%;
-  left:33%;
-  bottom:20%;
-  right:20%;
+  top:54%;
+  left:34%;
   color:#ffffff;
   text-decoration: underline overline #de721f;
-  font-size:2.5vh;
-  font-weight:500;
+  font-size:2.8vh;
+  font-weight:600;
   letter-spacing:0.3rem;
 }
 
@@ -111,8 +109,8 @@ body{
   background-color:#232429;
   color:#ffffff;
   padding-top:1vh;
-  padding-left:1vw;
-  padding-right:1vw;
+  padding-left:3vw;
+  padding-right:2vw;
   padding-bottom:1vh;
    
 }
@@ -122,7 +120,8 @@ body{
   height:auto;
   display:block;
   background-color:#232429;
-  border:solid 2px #de721f; 
+  border-top:solid 2px #de721f; 
+  border-bottom:solid 2px #de721f; 
 }
 .keto-diet{
   max-width:100%;
@@ -153,6 +152,7 @@ background-color:#232429;
   display:block;
   
   
+  
 }
 /*macros image*/
 div .keto-macros{
@@ -160,7 +160,8 @@ div .keto-macros{
   height:auto;
   display:block;
   background-color:#232429;
-  border: solid 2px #de721f;
+  border-top: solid 2px #de721f;
+   border-bottom:solid 2px #de721f;
   
 }
 /*section headings h2*/
@@ -190,7 +191,7 @@ footer{
   display:grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows:2fr 1fr 1fr;
-  box-shadow:0 0 0 3px #000405;
+  box-shadow:0 0 0 2px #de721f;
   padding-right:5vw;
 }
 .copyright{
@@ -206,6 +207,7 @@ footer{
 div .social-media{ 
   width:10vh;
   height:auto;
+  padding-top:8vh;
 }
 .printables a{
   text-decoration:none;
@@ -227,6 +229,19 @@ div .social-media{
   text-align: center;
   border:1px solid #ffffff;
   padding-left:-2vw;
+}
+
+/*media query for screen size 414px*/
+@media screen and (min-width: 414px) {
+#menu-box > h1{
+  position:absolute;
+  top:54%;
+  left:34%;
+  color:#ffffff;
+  text-decoration: underline overline #de721f;
+  font-size:2.5vh;
+  font-weight:600;
+  letter-spacing:0.3rem;
 }
 
 /*media query for screen size 490px*/
