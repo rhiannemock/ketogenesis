@@ -449,9 +449,34 @@ div .social-media{
   font-weight:700;
   letter-spacing:0.5rem;
 }
+footer{
+  background-color: #0b0b0d;
+  color:#2e323f;
+  width:100%;
+  height:35vh;
+  padding:2vh 2vw;
+  display:grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
 }
-
-
+.copyright{
+  padding:3px 3px 3px 3px;
+  font-size:1rem;
+  background-color:#232429;
+  color:#ffffff;
+  text-align:center;
+  width:80%;
+  border:solid 1px #ffffff}
+}
+.socials{
+  background-color:#232429;
+  color:#ffffff;
+  width:80%;
+  text-align: center;
+  border:1px solid #ffffff;
+  
+}
+}
 /* media query for screen sizes over 1024px*/
 @media screen and (min-width: 1024px) {
 
