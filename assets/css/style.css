@@ -589,7 +589,7 @@ div .social-media{
   left:37%;
   color:#ffffff;
   text-decoration: underline overline #de721f 8px;
-  font-size:4.5rem;
+  font-size:5rem;
   font-weight:800;
   letter-spacing:0.8rem;
   
@@ -788,5 +788,7 @@ div .social-media{
   background-color:#232429;
   color:#ffffff;
   width:80%;
+  font-size:1rem;
+  text-align: center;
 }
 }}
