@@ -185,12 +185,13 @@ form{
 footer{
   background-color: #0b0b0d;
   width:100%;
-  height:20vh;
+  height:40vh;
   padding:2vh 2vw;
   display:grid;
-  grid-template-columns: 3fr 1fr 1fr;
-  grid-template-rows:3fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows:2fr 1fr 1fr;
   box-shadow:0 0 0 3px #000405;
+  padding-right:5vw;
 }
 .copyright{
   padding:3px 3px 3px 3px;
@@ -198,17 +199,16 @@ footer{
   background-color:#232429;
   color:#ffffff;
   text-align:center;
-  width:30%;
+  width:80%;
   border:solid 1px #ffffff
 }
 
 div .social-media{ 
-  width:5vh;
+  width:10vh;
   height:auto;
 }
 .printables a{
   text-decoration:none;
-  font-size:xx-large;
   font-weight:bold;
   color:#ffffff;
   padding-bottom:1vh;
@@ -223,9 +223,10 @@ div .social-media{
 .socials{
   background-color:#232429;
   color:#ffffff;
-  width:80%;
+  width:85%;
   text-align: center;
   border:1px solid #ffffff;
+  padding-left:-2vw;
 }
 
 /*media query for screen size 490px*/
@@ -283,7 +284,7 @@ h2{
 }
 
 footer{
-  background-color: #de721f;
+  background-color: #0b0b0d;
   color:#2e323f;
   width:100%;
   height:35vh;
@@ -354,7 +355,7 @@ div .social-media{
 }
 
 footer{
-  background-color: #de721f;
+  background-color: #0b0b0d;
   color:#2e323f;
   width:100%;
   height:20vh;
@@ -473,7 +474,7 @@ h2{
 }
 
 footer{
-  background-color: #de721f;
+  background-color: #0b0b0d;
   color:#2e323f;
   width:100%;
   height:35vh;
